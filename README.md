@@ -14,6 +14,7 @@ Uygulamanın canlı demosuna buradan ulaşabilirsiniz:
 
 * **Dinamik Modlar:** Pomodoro, Kısa Mola ve Uzun Mola modları arasında geçiş.
 * **Otomatik Döngü:** 4 Pomodoro seansından sonra otomatik olarak Uzun Mola moduna geçiş.
+* **PWA Desteği (Yüklenebilir):** Çevrimdışı (internet olmadan) çalışabilir ve mobil/masaüstü cihazlara bir uygulama gibi yüklenebilir ("Ana Ekrana Ekle").
 * **Akıcı Animasyonlar:** Geri sayım sırasındaki rakam değişimleri ve mod geçişleri için Framer Motion ile zenginleştirilmiş animasyonlar.
 * **Kişiselleştirme:** Açılır ayar modalı sayesinde Pomodoro, Kısa Mola ve Uzun Mola sürelerini slider (kaydırıcı) ile kolayca ayarlayabilme.
 * **Güvenlik Onayı:** Zamanlayıcı aktifken modu değiştirmek veya oturumu sıfırlamak istendiğinde, animasyonlu bir onay modalı ile kullanıcıyı uyarır.
