@@ -134,6 +134,20 @@ function App() {
 
   }, [isActive, secondsLeft, mode, pomodoroCount]);
 
+  const colorClasses = [
+    'bg-emerald-700',
+    'bg-sky-700',
+    'bg-orange-800',
+    'bg-slate-900'
+  ];
+
+  useEffect(() => {
+    const newColorClass = getBackgroundColor();
+    
+    document.body.classList.remove(...colorClasses);
+    
+    document.body.classList.add(newColorClass);
+  }, [mode]);
 
   return (
     <div 

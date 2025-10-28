@@ -3,4 +3,5 @@
 
 body,head{
   font-family: 'Lexend', 'sans-serif';
+  overflow: hidden;
 }
