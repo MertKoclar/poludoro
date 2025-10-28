@@ -9,7 +9,7 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['poludoro.png', 'apple-touch-icon.png'],
+      includeAssets: ['poludoro.png', 'apple-touch-icon.png', 'lexend.ttf'],
       manifest: {
         name: 'Poludoro Pomodoro Zamanlayıcı',
         short_name: 'Poludoro',
